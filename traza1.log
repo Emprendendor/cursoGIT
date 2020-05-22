@@ -1,0 +1,16 @@
+wrong # args: should be "ui_status msg"
+wrong # args: should be "ui_status msg"
+    while executing
+"ui_status [mc "Ready to commit."] ui_ready"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 $after"
+    (procedure "select_first_diff" line 8)
+    invoked from within
+"select_first_diff $after "
+    (procedure "rescan_done" line 15)
+    invoked from within
+"rescan_done $fd buf_rlo $after"
+    (procedure "read_ls_others" line 14)
+    invoked from within
+"read_ls_others file3f75660 {reshow_diff; ui_status [mc "Ready to commit."] ui_ready}"
