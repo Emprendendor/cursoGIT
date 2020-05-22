@@ -14,3 +14,6 @@ wrong # args: should be "ui_status msg"
     (procedure "read_ls_others" line 14)
     invoked from within
 "read_ls_others file3f75660 {reshow_diff; ui_status [mc "Ready to commit."] ui_ready}"
+
+
+Modifico el fichero despues del conmit que he realizado
