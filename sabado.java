@@ -1,17 +1,13 @@
 public String getPayloadObjeto() throws JsonProcessingException {
 	    
-    Map<String, Object> likeMap = new LinkedHashMap<>();
+    Map<String, Object> likeMap = new LinkedHashMap<>("datos ", posibilidade");
     /*
      * likeMap.put("_uuid", api.getUuid()); likeMap.put("_uid", api.getUserId());
      * likeMap.put("_csrftoken", api.getOrFetchCsrf()); likeMap.put("media_id",
      * mediaId);
      */
     
-    
-    likeMap.put("_uuid", "asasasas" );
-    likeMap.put("_uid", "3232323");
-    likeMap.put("_csrftoken", "3333334555");
-    likeMap.put("media_id", "323232");
+ 
     
     
     ObjectMapper mapper = new ObjectMapper();
@@ -43,6 +39,7 @@ public String getPayloadObjeto() throws JsonProcessingException {
   </Item>
 </Invoice>
 package com.mavenproyecto;
+import com.fasterxml.jackson.databind.andres
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
