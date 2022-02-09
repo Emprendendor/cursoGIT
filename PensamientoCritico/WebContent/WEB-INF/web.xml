@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>PensamientoCritico</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>prueba2.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <display-name>Servlets ejemplo</display-name>
+  <description>
+     Servlets de ejemplo para practicar
+  </description>
+  <servlet>
+    <servlet-name>ParamServlet</servlet-name>
+    <servlet-class>com.Pensamientocritico.Servlet.login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ParamServlet</servlet-name>
+    <url-pattern>/llamada</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+    <servlet>
+    <servlet-name>MiServlet</servlet-name>
+    <servlet-class>com.Pensamientocritico.Servlet.MyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MiServlet</servlet-name>
+    <url-pattern>/inicio</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+</web-app>
